@@ -1,0 +1,20 @@
+[
+    {
+        "app_id": "gnome-control-center.desktop",
+        "date_created": 1596957227.0,
+        "description": "it is awful capare with before version",
+        "distro": "Ubuntu",
+        "karma_down": 0,
+        "karma_up": 0,
+        "locale": "ko_KR.UTF-8",
+        "rating": 20,
+        "reported": 0,
+        "review_id": 256993,
+        "score": 0,
+        "summary": "too many uselsss funtions",
+        "user_display": "mes",
+        "user_hash": "651d2e0ff696b5096b530ea2a8dffc8e94176e44",
+        "user_skey": "ffa0301b8b06ef6d5b81220545111e1374fe5b06",
+        "version": "3.36.1"
+    }
+]

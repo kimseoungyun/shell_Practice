@@ -1,0 +1,515 @@
+[ 69019.509] _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+[ 69019.509] _XSERVTransMakeAllCOTSServerListeners: server already running
+[ 69019.510] (--) Log file renamed from "/home/kimseongyun/.local/share/xorg/Xorg.pid-27799.log" to "/home/kimseongyun/.local/share/xorg/Xorg.1.log"
+[ 69019.510] 
+X.Org X Server 1.20.11
+X Protocol Version 11, Revision 0
+[ 69019.511] Build Operating System: linux Ubuntu
+[ 69019.511] Current Operating System: Linux kimseongyun-VirtualBox 5.11.0-37-generic #41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021 x86_64
+[ 69019.512] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.11.0-37-generic root=UUID=a4d3e348-9171-47a1-9c7d-6c94f05c0cdc ro quiet splash
+[ 69019.512] Build Date: 06 July 2021  10:17:51AM
+[ 69019.513] xorg-server 2:1.20.11-1ubuntu1~20.04.2 (For technical support please see http://www.ubuntu.com/support) 
+[ 69019.513] Current version of pixman: 0.38.4
+[ 69019.513] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 69019.513] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 69019.513] (==) Log file: "/home/kimseongyun/.local/share/xorg/Xorg.1.log", Time: Tue Nov 30 00:00:27 2021
+[ 69019.514] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 69019.514] (==) No Layout section.  Using the first Screen section.
+[ 69019.514] (==) No screen section available. Using defaults.
+[ 69019.514] (**) |-->Screen "Default Screen Section" (0)
+[ 69019.514] (**) |   |-->Monitor "<default monitor>"
+[ 69019.516] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 69019.516] (==) Automatically adding devices
+[ 69019.516] (==) Automatically enabling devices
+[ 69019.517] (==) Automatically adding GPU devices
+[ 69019.517] (==) Automatically binding GPU devices
+[ 69019.517] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 69019.517] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 69019.517] 	Entry deleted from font path.
+[ 69019.517] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[ 69019.517] 	Entry deleted from font path.
+[ 69019.517] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 69019.518] 	Entry deleted from font path.
+[ 69019.518] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[ 69019.518] 	Entry deleted from font path.
+[ 69019.519] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 69019.519] 	Entry deleted from font path.
+[ 69019.519] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[ 69019.519] (==) ModulePath set to "/usr/lib/xorg/modules"
+[ 69019.519] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 69019.519] (II) Loader magic: 0x561a56f7b020
+[ 69019.520] (II) Module ABI versions:
+[ 69019.520] 	X.Org ANSI C Emulation: 0.4
+[ 69019.520] 	X.Org Video Driver: 24.1
+[ 69019.520] 	X.Org XInput driver : 24.1
+[ 69019.520] 	X.Org Server Extension : 10.0
+[ 69019.521] (++) using VT number 3
+
+[ 69019.524] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_341
+[ 69019.527] (II) xfree86: Adding drm device (/dev/dri/card0)
+[ 69019.528] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[ 69019.535] (--) PCI:*(0@0:2:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe0000000/16777216, 0xf0000000/2097152, I/O @ 0x0000d010/16, BIOS @ 0x????????/131072
+[ 69019.535] (II) LoadModule: "glx"
+[ 69019.536] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 69019.538] (II) Module glx: vendor="X.Org Foundation"
+[ 69019.538] 	compiled for 1.20.11, module version = 1.0.0
+[ 69019.538] 	ABI class: X.Org Server Extension, version 10.0
+[ 69019.538] (==) Matched vmware as autoconfigured driver 0
+[ 69019.538] (==) Matched modesetting as autoconfigured driver 1
+[ 69019.538] (==) Matched fbdev as autoconfigured driver 2
+[ 69019.539] (==) Matched vesa as autoconfigured driver 3
+[ 69019.539] (==) Assigned the driver to the xf86ConfigLayout
+[ 69019.539] (II) LoadModule: "vmware"
+[ 69019.539] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[ 69019.591] (II) Module vmware: vendor="X.Org Foundation"
+[ 69019.591] 	compiled for 1.20.8, module version = 13.3.0
+[ 69019.591] 	Module class: X.Org Video Driver
+[ 69019.591] 	ABI class: X.Org Video Driver, version 24.1
+[ 69019.591] (II) LoadModule: "modesetting"
+[ 69019.593] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[ 69019.593] (II) Module modesetting: vendor="X.Org Foundation"
+[ 69019.593] 	compiled for 1.20.11, module version = 1.20.11
+[ 69019.594] 	Module class: X.Org Video Driver
+[ 69019.594] 	ABI class: X.Org Video Driver, version 24.1
+[ 69019.594] (II) LoadModule: "fbdev"
+[ 69019.595] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[ 69019.595] (II) Module fbdev: vendor="X.Org Foundation"
+[ 69019.595] 	compiled for 1.20.1, module version = 0.5.0
+[ 69019.595] 	Module class: X.Org Video Driver
+[ 69019.595] 	ABI class: X.Org Video Driver, version 24.0
+[ 69019.596] (II) LoadModule: "vesa"
+[ 69019.596] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[ 69019.596] (II) Module vesa: vendor="X.Org Foundation"
+[ 69019.596] 	compiled for 1.20.4, module version = 2.4.0
+[ 69019.597] 	Module class: X.Org Video Driver
+[ 69019.597] 	ABI class: X.Org Video Driver, version 24.0
+[ 69019.597] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[ 69019.597] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[ 69019.597] (II) FBDEV: driver for framebuffer: fbdev
+[ 69019.597] (II) VESA: driver for VESA chipsets: vesa
+[ 69019.598] xf86EnableIOPorts: failed to set IOPL for I/O (Operation not permitted)
+[ 69019.599] (WW) Falling back to old probe method for modesetting
+[ 69019.599] (WW) Falling back to old probe method for fbdev
+[ 69019.599] (II) Loading sub module "fbdevhw"
+[ 69019.600] (II) LoadModule: "fbdevhw"
+[ 69019.600] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[ 69019.600] (II) Module fbdevhw: vendor="X.Org Foundation"
+[ 69019.600] 	compiled for 1.20.11, module version = 0.0.2
+[ 69019.601] 	ABI class: X.Org Video Driver, version 24.1
+[ 69019.601] (EE) open /dev/fb0: Permission denied
+[ 69019.601] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[ 69019.601] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[ 69019.601] (--) vmware(0): DRM driver version is 2.18.0
+[ 69019.601] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[ 69019.601] (==) vmware(0): RGB weight 888
+[ 69019.601] (==) vmware(0): Default visual is TrueColor
+[ 69019.602] (--) vmware(0): Min width 1, Max Width 8192.
+[ 69019.602] (--) vmware(0): Min height 1, Max Height 8192.
+[ 69019.602] (II) vmware(0): Output Virtual1 has no monitor section
+[ 69019.602] (II) vmware(0): Output Virtual2 has no monitor section
+[ 69019.602] (II) vmware(0): Output Virtual3 has no monitor section
+[ 69019.603] (II) vmware(0): Output Virtual4 has no monitor section
+[ 69019.603] (II) vmware(0): Output Virtual5 has no monitor section
+[ 69019.603] (II) vmware(0): Output Virtual6 has no monitor section
+[ 69019.604] (II) vmware(0): Output Virtual7 has no monitor section
+[ 69019.604] (II) vmware(0): Output Virtual8 has no monitor section
+[ 69019.605] (II) vmware(0): Printing probed modes for output Virtual1
+[ 69019.605] (II) vmware(0): Modeline "1920x950"x60.0  136.62  1920 1970 2020 2070  950 1000 1050 1100 -hsync +vsync (66.0 kHz eP)
+[ 69019.605] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz e)
+[ 69019.605] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[ 69019.606] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz e)
+[ 69019.606] (II) vmware(0): EDID for output Virtual2
+[ 69019.606] (II) vmware(0): EDID for output Virtual3
+[ 69019.606] (II) vmware(0): EDID for output Virtual4
+[ 69019.606] (II) vmware(0): EDID for output Virtual5
+[ 69019.606] (II) vmware(0): EDID for output Virtual6
+[ 69019.606] (II) vmware(0): EDID for output Virtual7
+[ 69019.606] (II) vmware(0): EDID for output Virtual8
+[ 69019.606] (II) vmware(0): Output Virtual1 connected
+[ 69019.606] (II) vmware(0): Output Virtual2 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual3 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual4 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual5 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual6 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual7 disconnected
+[ 69019.606] (II) vmware(0): Output Virtual8 disconnected
+[ 69019.606] (II) vmware(0): Using exact sizes for initial modes
+[ 69019.606] (II) vmware(0): Output Virtual1 using initial mode 1920x950 +0+0
+[ 69019.606] (==) vmware(0): DPI set to (96, 96)
+[ 69019.606] (==) vmware(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 69019.606] (II) Loading sub module "fb"
+[ 69019.606] (II) LoadModule: "fb"
+[ 69019.606] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 69019.607] (II) Module fb: vendor="X.Org Foundation"
+[ 69019.607] 	compiled for 1.20.11, module version = 1.0.0
+[ 69019.607] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 69019.607] (II) Loading sub module "dri2"
+[ 69019.607] (II) LoadModule: "dri2"
+[ 69019.607] (II) Module "dri2" already built-in
+[ 69019.607] (II) Loading sub module "dri3"
+[ 69019.607] (II) LoadModule: "dri3"
+[ 69019.607] (II) Module "dri3" already built-in
+[ 69019.607] (II) UnloadModule: "modesetting"
+[ 69019.607] (II) Unloading modesetting
+[ 69019.607] (II) UnloadModule: "fbdev"
+[ 69019.607] (II) Unloading fbdev
+[ 69019.607] (II) UnloadSubModule: "fbdevhw"
+[ 69019.610] (II) Unloading fbdevhw
+[ 69019.610] (II) UnloadModule: "vesa"
+[ 69019.610] (II) Unloading vesa
+[ 69019.612] (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[ 69019.621] (WW) vmware(0): Failed to initialize Gallium3D Xa. No render acceleration available.
+[ 69019.621] (WW) vmware(0): Skipped initialization of direct rendering due to lack of render acceleration.
+[ 69019.621] (--) vmware(0): Render acceleration is disabled.
+[ 69019.621] (==) vmware(0): Rendercheck mode is disabled.
+[ 69019.621] (--) vmware(0): Direct rendering (DRI2 3D) is disabled.
+[ 69019.621] (--) vmware(0): Direct rendering (DRI3 3D) is disabled.
+[ 69019.622] (==) vmware(0): Backing store enabled
+[ 69019.622] (==) vmware(0): Silken mouse enabled
+[ 69019.623] (==) vmware(0): DPMS enabled
+[ 69019.623] (II) vmware(0): No 3D acceleration. Not setting up textured video.
+[ 69019.623] (WW) vmware(0): Disabling Xv because no adaptors could be initialized.
+[ 69019.623] (II) Initializing extension Generic Event Extension
+[ 69019.624] (II) Initializing extension SHAPE
+[ 69019.624] (II) Initializing extension MIT-SHM
+[ 69019.626] (II) Initializing extension XInputExtension
+[ 69019.626] (II) Initializing extension XTEST
+[ 69019.626] (II) Initializing extension BIG-REQUESTS
+[ 69019.627] (II) Initializing extension SYNC
+[ 69019.627] (II) Initializing extension XKEYBOARD
+[ 69019.628] (II) Initializing extension XC-MISC
+[ 69019.629] (II) Initializing extension SECURITY
+[ 69019.629] (II) Initializing extension XFIXES
+[ 69019.631] (II) Initializing extension RENDER
+[ 69019.631] (II) Initializing extension RANDR
+[ 69019.632] (II) Initializing extension COMPOSITE
+[ 69019.632] (II) Initializing extension DAMAGE
+[ 69019.633] (II) Initializing extension MIT-SCREEN-SAVER
+[ 69019.634] (II) Initializing extension DOUBLE-BUFFER
+[ 69019.634] (II) Initializing extension RECORD
+[ 69019.634] (II) Initializing extension DPMS
+[ 69019.635] (II) Initializing extension Present
+[ 69019.636] (II) Initializing extension DRI3
+[ 69019.636] (II) Initializing extension X-Resource
+[ 69019.637] (II) Initializing extension XVideo
+[ 69019.637] (II) Initializing extension XVideo-MotionCompensation
+[ 69019.637] (II) Initializing extension SELinux
+[ 69019.637] (II) SELinux: Disabled on system
+[ 69019.638] (II) Initializing extension GLX
+[ 69019.639] (II) AIGLX: Screen 0 is not DRI2 capable
+[ 69019.658] (II) IGLX: Loaded and initialized swrast
+[ 69019.659] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[ 69019.659] (II) Initializing extension XFree86-VidModeExtension
+[ 69019.659] (II) Initializing extension XFree86-DGA
+[ 69019.659] (II) Initializing extension XFree86-DRI
+[ 69019.659] (II) Initializing extension DRI2
+[ 69019.671] (II) vmware(0): Setting screen physical size to 508 x 251
+[ 69019.796] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[ 69019.796] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[ 69019.796] (II) LoadModule: "libinput"
+[ 69019.797] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[ 69019.800] (II) Module libinput: vendor="X.Org Foundation"
+[ 69019.800] 	compiled for 1.20.4, module version = 0.29.0
+[ 69019.800] 	Module class: X.Org XInput Driver
+[ 69019.800] 	ABI class: X.Org XInput driver, version 24.1
+[ 69019.800] (II) Using input driver 'libinput' for 'Power Button'
+[ 69019.802] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 21 paused 0
+[ 69019.802] (**) Power Button: always reports core events
+[ 69019.802] (**) Option "Device" "/dev/input/event0"
+[ 69019.802] (**) Option "_source" "server/udev"
+[ 69019.807] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[ 69019.807] (II) event0  - Power Button: device is a keyboard
+[ 69019.807] (II) event0  - Power Button: device removed
+[ 69019.808] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[ 69019.808] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[ 69019.808] (**) Option "xkb_model" "pc105"
+[ 69019.808] (**) Option "xkb_layout" "us"
+[ 69019.810] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[ 69019.810] (II) event0  - Power Button: device is a keyboard
+[ 69019.812] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[ 69019.812] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[ 69019.812] (II) Using input driver 'libinput' for 'Sleep Button'
+[ 69019.814] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 24 paused 0
+[ 69019.814] (**) Sleep Button: always reports core events
+[ 69019.814] (**) Option "Device" "/dev/input/event1"
+[ 69019.814] (**) Option "_source" "server/udev"
+[ 69019.816] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 69019.817] (II) event1  - Sleep Button: device is a keyboard
+[ 69019.817] (II) event1  - Sleep Button: device removed
+[ 69019.817] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[ 69019.817] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[ 69019.817] (**) Option "xkb_model" "pc105"
+[ 69019.817] (**) Option "xkb_layout" "us"
+[ 69019.820] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[ 69019.820] (II) event1  - Sleep Button: device is a keyboard
+[ 69019.822] (II) config/udev: Adding input device Video Bus (/dev/input/event3)
+[ 69019.822] (**) Video Bus: Applying InputClass "libinput keyboard catchall"
+[ 69019.822] (II) Using input driver 'libinput' for 'Video Bus'
+[ 69019.823] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 25 paused 0
+[ 69019.823] (**) Video Bus: always reports core events
+[ 69019.823] (**) Option "Device" "/dev/input/event3"
+[ 69019.823] (**) Option "_source" "server/udev"
+[ 69019.826] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[ 69019.826] (II) event3  - Video Bus: device is a keyboard
+[ 69019.826] (II) event3  - Video Bus: device removed
+[ 69019.826] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input4/event3"
+[ 69019.827] (II) XINPUT: Adding extended input device "Video Bus" (type: KEYBOARD, id 8)
+[ 69019.827] (**) Option "xkb_model" "pc105"
+[ 69019.827] (**) Option "xkb_layout" "us"
+[ 69019.830] (II) event3  - Video Bus: is tagged by udev as: Keyboard
+[ 69019.830] (II) event3  - Video Bus: device is a keyboard
+[ 69019.833] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/event6)
+[ 69019.833] (**) VirtualBox mouse integration: Applying InputClass "libinput pointer catchall"
+[ 69019.833] (II) Using input driver 'libinput' for 'VirtualBox mouse integration'
+[ 69019.834] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 26 paused 0
+[ 69019.834] (**) VirtualBox mouse integration: always reports core events
+[ 69019.834] (**) Option "Device" "/dev/input/event6"
+[ 69019.834] (**) Option "_source" "server/udev"
+[ 69019.837] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[ 69019.837] (II) event6  - VirtualBox mouse integration: device is a pointer
+[ 69019.839] (II) event6  - VirtualBox mouse integration: device removed
+[ 69019.839] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/input/input7/event6"
+[ 69019.839] (II) XINPUT: Adding extended input device "VirtualBox mouse integration" (type: MOUSE, id 9)
+[ 69019.839] (**) Option "AccelerationScheme" "none"
+[ 69019.840] (**) VirtualBox mouse integration: (accel) selected scheme none/0
+[ 69019.840] (**) VirtualBox mouse integration: (accel) acceleration factor: 2.000
+[ 69019.840] (**) VirtualBox mouse integration: (accel) acceleration threshold: 4
+[ 69019.841] (II) event6  - VirtualBox mouse integration: is tagged by udev as: Mouse
+[ 69019.842] (II) event6  - VirtualBox mouse integration: device is a pointer
+[ 69019.843] (II) config/udev: Adding input device VirtualBox mouse integration (/dev/input/js1)
+[ 69019.843] (II) No input driver specified, ignoring this device.
+[ 69019.843] (II) This device may have been added with another device file.
+[ 69019.845] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/event5)
+[ 69019.845] (**) VirtualBox USB Tablet: Applying InputClass "libinput pointer catchall"
+[ 69019.845] (II) Using input driver 'libinput' for 'VirtualBox USB Tablet'
+[ 69019.846] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 27 paused 0
+[ 69019.847] (**) VirtualBox USB Tablet: always reports core events
+[ 69019.847] (**) Option "Device" "/dev/input/event5"
+[ 69019.847] (**) Option "_source" "server/udev"
+[ 69019.851] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 69019.851] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[ 69019.852] (II) event5  - VirtualBox USB Tablet: device removed
+[ 69019.852] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0007/input/input13/event5"
+[ 69019.853] (II) XINPUT: Adding extended input device "VirtualBox USB Tablet" (type: MOUSE, id 10)
+[ 69019.853] (**) Option "AccelerationScheme" "none"
+[ 69019.853] (**) VirtualBox USB Tablet: (accel) selected scheme none/0
+[ 69019.853] (**) VirtualBox USB Tablet: (accel) acceleration factor: 2.000
+[ 69019.853] (**) VirtualBox USB Tablet: (accel) acceleration threshold: 4
+[ 69019.856] (II) event5  - VirtualBox USB Tablet: is tagged by udev as: Mouse
+[ 69019.857] (II) event5  - VirtualBox USB Tablet: device is a pointer
+[ 69019.860] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/js0)
+[ 69019.860] (II) No input driver specified, ignoring this device.
+[ 69019.860] (II) This device may have been added with another device file.
+[ 69019.861] (II) config/udev: Adding input device VirtualBox USB Tablet (/dev/input/mouse1)
+[ 69019.861] (II) No input driver specified, ignoring this device.
+[ 69019.861] (II) This device may have been added with another device file.
+[ 69019.862] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[ 69019.862] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[ 69019.863] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[ 69019.866] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 28 paused 0
+[ 69019.866] (**) AT Translated Set 2 keyboard: always reports core events
+[ 69019.866] (**) Option "Device" "/dev/input/event2"
+[ 69019.866] (**) Option "_source" "server/udev"
+[ 69019.879] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 69019.879] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[ 69019.879] (II) event2  - AT Translated Set 2 keyboard: device removed
+[ 69019.880] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[ 69019.880] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 11)
+[ 69019.880] (**) Option "xkb_model" "pc105"
+[ 69019.880] (**) Option "xkb_layout" "us"
+[ 69019.881] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[ 69019.881] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[ 69019.884] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event4)
+[ 69019.884] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[ 69019.885] (II) Using input driver 'libinput' for 'ImExPS/2 Generic Explorer Mouse'
+[ 69019.886] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 29 paused 0
+[ 69019.887] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[ 69019.887] (**) Option "Device" "/dev/input/event4"
+[ 69019.887] (**) Option "_source" "server/udev"
+[ 69019.889] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[ 69019.889] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[ 69019.890] (II) event4  - ImExPS/2 Generic Explorer Mouse: device removed
+[ 69019.890] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input5/event4"
+[ 69019.890] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 12)
+[ 69019.891] (**) Option "AccelerationScheme" "none"
+[ 69019.891] (**) ImExPS/2 Generic Explorer Mouse: (accel) selected scheme none/0
+[ 69019.891] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[ 69019.891] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[ 69019.894] (II) event4  - ImExPS/2 Generic Explorer Mouse: is tagged by udev as: Mouse
+[ 69019.894] (II) event4  - ImExPS/2 Generic Explorer Mouse: device is a pointer
+[ 69019.897] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse0)
+[ 69019.897] (II) No input driver specified, ignoring this device.
+[ 69019.897] (II) This device may have been added with another device file.
+[ 69024.331] (EE) No surface to present from.
+[ 77345.382] (II) config/udev: removing device VirtualBox USB Tablet
+[ 77345.384] (**) Option "fd" "27"
+[ 77345.384] (II) event5  - VirtualBox USB Tablet: device removed
+[ 77345.433] (II) UnloadModule: "libinput"
+[ 77345.434] (II) systemd-logind: releasing fd for 13:69
+[ 77345.457] (EE) systemd-logind: failed to release device: Device not taken
+[ 94584.582] (EE) No surface to present from.
+[127863.297] (EE) No surface to present from.
+[130693.547] (EE) No surface to present from.
+[131703.175] (EE) No surface to present from.
+[131778.912] (EE) No surface to present from.
+[131783.413] (EE) No surface to present from.
+[131786.578] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-9ms), your system is too slow
+[131788.389] (EE) No surface to present from.
+[131792.771] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-1ms), your system is too slow
+[131795.790] (EE) No surface to present from.
+[131866.874] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
+[131870.379] (EE) No surface to present from.
+[131871.694] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-96ms), your system is too slow
+[131871.699] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-34ms), your system is too slow
+[131871.699] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-47ms), your system is too slow
+[131871.969] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-216ms), your system is too slow
+[131871.995] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-162ms), your system is too slow
+[131871.996] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-176ms), your system is too slow
+[131872.170] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-55ms), your system is too slow
+[131872.177] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-32ms), your system is too slow
+[131872.177] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-45ms), your system is too slow
+[131872.575] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[131872.580] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-298ms), your system is too slow
+[131872.580] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-203ms), your system is too slow
+[131872.580] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-216ms), your system is too slow
+[131872.580] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-105ms), your system is too slow
+[131872.580] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-19ms), your system is too slow
+[131872.580] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-32ms), your system is too slow
+[131872.652] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-0ms), your system is too slow
+[131872.985] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-217ms), your system is too slow
+[131873.066] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-302ms), your system is too slow
+[131873.067] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-319ms), your system is too slow
+[131873.067] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-226ms), your system is too slow
+[131873.067] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-239ms), your system is too slow
+[131873.179] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[131873.217] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-92ms), your system is too slow
+[131873.217] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-7ms), your system is too slow
+[131873.217] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-20ms), your system is too slow
+[131873.708] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-324ms), your system is too slow
+[131873.757] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-323ms), your system is too slow
+[131873.763] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-359ms), your system is too slow
+[131873.766] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-315ms), your system is too slow
+[131873.766] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-219ms), your system is too slow
+[131873.766] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-181ms), your system is too slow
+[131873.766] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-194ms), your system is too slow
+[131873.767] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-142ms), your system is too slow
+[131873.767] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-155ms), your system is too slow
+[131873.770] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-83ms), your system is too slow
+[131873.771] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-74ms), your system is too slow
+[131873.879] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-56ms), your system is too slow
+[131873.880] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-74ms), your system is too slow
+[131874.106] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-101ms), your system is too slow
+[131874.108] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-120ms), your system is too slow
+[131874.109] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-96ms), your system is too slow
+[131874.109] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-109ms), your system is too slow
+[131874.109] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-26ms), your system is too slow
+[131874.315] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-2ms), your system is too slow
+[131874.337] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-32ms), your system is too slow
+[131874.611] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-202ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-228ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-188ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-201ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-138ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-24ms), your system is too slow
+[131874.621] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-37ms), your system is too slow
+[131874.722] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-2ms), your system is too slow
+[131874.783] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
+[131875.063] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-160ms), your system is too slow
+[131875.092] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-115ms), your system is too slow
+[131875.093] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-129ms), your system is too slow
+[131875.093] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-59ms), your system is too slow
+[131875.285] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-126ms), your system is too slow
+[131875.288] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-154ms), your system is too slow
+[131875.288] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-78ms), your system is too slow
+[131878.828] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-7ms), your system is too slow
+[131878.837] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-32ms), your system is too slow
+[131878.990] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-4ms), your system is too slow
+[131879.090] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-44ms), your system is too slow
+[131879.091] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-62ms), your system is too slow
+[131879.418] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-158ms), your system is too slow
+[131879.419] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-182ms), your system is too slow
+[131879.427] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-101ms), your system is too slow
+[131879.428] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-8ms), your system is too slow
+[131879.576] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-27ms), your system is too slow
+[131879.777] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-114ms), your system is too slow
+[131879.789] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-167ms), your system is too slow
+[131879.827] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-128ms), your system is too slow
+[131879.827] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-9ms), your system is too slow
+[131879.827] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-22ms), your system is too slow
+[131879.924] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-28ms), your system is too slow
+[131880.131] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-69ms), your system is too slow
+[131880.140] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-152ms), your system is too slow
+[131880.153] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-61ms), your system is too slow
+[131880.231] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-18ms), your system is too slow
+[131880.262] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-64ms), your system is too slow
+[131880.273] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-7ms), your system is too slow
+[131880.947] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-3ms), your system is too slow
+[131899.480] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-327ms), your system is too slow
+[131899.639] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-496ms), your system is too slow
+[131899.652] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-508ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-401ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-377ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-390ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-271ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-284ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-260ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-89ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-102ms), your system is too slow
+[131899.653] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-16ms), your system is too slow
+[131899.653] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[131899.845] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-74ms), your system is too slow
+[131899.862] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-124ms), your system is too slow
+[131899.913] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-152ms), your system is too slow
+[131899.913] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-54ms), your system is too slow
+[131899.913] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-14ms), your system is too slow
+[131899.913] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-27ms), your system is too slow
+[131900.051] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-91ms), your system is too slow
+[131900.210] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-258ms), your system is too slow
+[131900.233] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-281ms), your system is too slow
+[131900.233] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-141ms), your system is too slow
+[131900.233] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-154ms), your system is too slow
+[131901.742] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[131905.174] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-313ms), your system is too slow
+[131905.200] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-260ms), your system is too slow
+[131905.200] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-274ms), your system is too slow
+[131905.200] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-147ms), your system is too slow
+[131905.201] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-75ms), your system is too slow
+[131905.201] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-88ms), your system is too slow
+[131905.201] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-65ms), your system is too slow
+[131905.454] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-154ms), your system is too slow
+[131905.488] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-220ms), your system is too slow
+[131905.869] (II) event6  - VirtualBox mouse integration: SYN_DROPPED event - some input events have been lost.
+[131906.212] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-614ms), your system is too slow
+[131906.246] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-594ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-608ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-433ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-307ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-320ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-259ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-155ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce short: scheduled expiry is in the past (-168ms), your system is too slow
+[131906.247] (EE) client bug: timer event4 debounce: scheduled expiry is in the past (-91ms), your system is too slow
